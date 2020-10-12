@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(6,12,179);
+    background: -moz-linear-gradient(51deg, rgba(6,12,179,1) 0%, rgba(2,198,255,1) 100%);
+    background: -webkit-linear-gradient(51deg, rgba(6,12,179,1) 0%, rgba(2,198,255,1) 100%);
+    background: linear-gradient(51deg, rgba(6,12,179,1) 0%, rgba(2,198,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#060cb3",endColorstr="#02c6ff",GradientType=1);
+}
