@@ -53,14 +53,29 @@ body{
     position: relative;
 }
 
-.card.cognome::before{
+.card.colore{
+    background-color: #27ae60;
+    background: radial-gradient(#2ecc71, #16a085);
+    border: 1px solid green;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 110px;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotatey(-14deg) translate3d(652px,-67px, -184px);
+    transform-origin: center;
+    position: relative;
+}
+
+.card.colore::before{
     width: 100%;
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
     transform: perspective(300px) translate3d(-120px, -21px, 1px);
     content: "";
-    box-shadow: 0px 0px 43px 41px #2980b9;
+    box-shadow: 10px -2px 15px 22px rgba(0, 0, 255, 0.4);
 }
 
 .card span{
@@ -68,4 +83,17 @@ body{
     background-color: lightblue;
     width: 80%;
     display: inline-block;
+}
+
+#password{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate(-50% , 20%);
+    background-color: #27ae60;
+    color: white;
+    padding: 30px;
 }
