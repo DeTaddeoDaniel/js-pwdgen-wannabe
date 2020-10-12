@@ -5,9 +5,34 @@
 }
 
 body{
+    height: 100vh;
+    width: 100vh;
     background: rgb(6,12,179);
     background: -moz-linear-gradient(51deg, rgba(6,12,179,1) 0%, rgba(2,198,255,1) 100%);
     background: -webkit-linear-gradient(51deg, rgba(6,12,179,1) 0%, rgba(2,198,255,1) 100%);
     background: linear-gradient(51deg, rgba(6,12,179,1) 0%, rgba(2,198,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#060cb3",endColorstr="#02c6ff",GradientType=1);
+}
+
+.wrap{
+}
+
+.card{
+    background-color: #27ae60;
+    border: 1px solid #16a085;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 110px;
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateY(15deg) translate3d(30px,100px, 40px);
+    transform-origin: center;
+}
+
+.card span{
+    padding: 8px;
+    background-color: lightblue;
+    width: 80%;
+    display: inline-block;
 }
