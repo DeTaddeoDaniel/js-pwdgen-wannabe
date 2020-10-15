@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    /* background: radial-gradient(#9bdfff, #009be4); */
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #2c3e50;
+}
+
+.content{
+    align-content: center;
+    background-color: #34495e;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+h1{
+    word-break: break-all;
+}
+
+#passwordGenerate,
+.text p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#passwordGenerate{
+    color: #e74c3c;
+    font-size: 30px;
+    word-break: break-all;
+}
+
+.animazione{
+    height: 200px;
+    width: 200px;
+}
