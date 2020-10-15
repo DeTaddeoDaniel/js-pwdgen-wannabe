@@ -12,7 +12,7 @@ cognome = prompt("What is your surname?");
 console.log ("surname: " + cognome)
 
 // colore
-color = prompt("Quale è il tuo color preferito?");
+color = prompt("What is like color?");
 console.log("color: " + color);
 
 // password generata
